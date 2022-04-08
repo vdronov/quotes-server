@@ -16,7 +16,7 @@ import java.util.Map;
 @Service
 public class QuoteService {
 
-    private Map<Long, Quote> storage = new LinkedHashMap<Long, Quote>();
+    private final Map<Long, Quote> storage = new LinkedHashMap<>();
 
     /**
      * Create new quote
@@ -75,6 +75,6 @@ public class QuoteService {
      * @return all values from storage
      */
     public List<Quote> getAll() {
-        return new ArrayList<Quote>(storage.values());
+        return new ArrayList<>(storage.values());
     }
 }
