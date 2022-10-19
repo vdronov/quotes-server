@@ -11,7 +11,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <com.fasterxml.jackson-version>2.5.3</com.fasterxml.jackson-version>
+        <com.fasterxml.jackson-version>2.13.4.1</com.fasterxml.jackson-version>
         <spring.version>4.3.22.RELEASE</spring.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <spring-security-web.version>4.0.4.RELEASE</spring-security-web.version>
